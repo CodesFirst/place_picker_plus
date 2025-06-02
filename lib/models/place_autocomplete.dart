@@ -1,0 +1,1 @@
+enum PlaceAutocompleteMode { modeOverlay, modeFullscreen }
