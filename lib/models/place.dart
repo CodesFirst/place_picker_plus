@@ -14,8 +14,12 @@ class Place {
   });
 
   factory Place.fromJson(Map<String, dynamic> json) => Place(
-    latitude: json['latitude'] is double ? json['latitude'] : double.parse(json['latitude']),
-    longitude: json['longitude'] is double ? json['longitude'] : double.parse(json['longitude']),
+    latitude: json['latitude'] is double
+        ? json['latitude']
+        : double.parse(json['latitude']),
+    longitude: json['longitude'] is double
+        ? json['longitude']
+        : double.parse(json['longitude']),
     id: json['id'],
     name: json['name'],
     address: json['address'],

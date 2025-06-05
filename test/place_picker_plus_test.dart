@@ -34,7 +34,8 @@ class MockPlacePickerPlusPlatform
 }
 
 void main() {
-  final PlacePickerPlusPlatform initialPlatform = PlacePickerPlusPlatform.instance;
+  final PlacePickerPlusPlatform initialPlatform =
+      PlacePickerPlusPlatform.instance;
 
   test('$MethodChannelPlacePickerPlus is the default instance', () {
     expect(initialPlatform, isInstanceOf<MethodChannelPlacePickerPlus>());

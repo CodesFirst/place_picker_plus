@@ -5,17 +5,20 @@
 Pod::Spec.new do |s|
   s.name             = 'place_picker_plus'
   s.version          = '0.0.1'
-  s.summary          = 'A new Flutter project.'
+  s.summary          = 'Flutter plugin for Google Places and Autocomplete.'
   s.description      = <<-DESC
-A new Flutter project.
+Flutter plugin for Google Places Autocomplete.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/CodesFirst/place_picker_plus'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'CodesFirst' => 'support@codesfirst.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.platform = :ios, '12.0'
+  s.dependency 'GooglePlaces', '~> 10.0'
+  # s.platform = :ios, '13.0'
+  s.ios.deployment_target = '16.0'
+
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }

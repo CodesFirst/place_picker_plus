@@ -66,8 +66,16 @@ class _MyAppState extends State<MyApp> {
         body: new Center(
           child: new Column(
             children: <Widget>[
-              TextButton(onPressed: _showAutocomplete, child: new Text("Show autocomplete")),
-              Row(children: <Widget>[new Text("Place name: "), new Text(_placeName)]),
+              TextButton(
+                onPressed: _showAutocomplete,
+                child: new Text("Show autocomplete"),
+              ),
+              Row(
+                children: <Widget>[
+                  new Text("Place name: "),
+                  new Text(_placeName),
+                ],
+              ),
             ],
           ),
         ),

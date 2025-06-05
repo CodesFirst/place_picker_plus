@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - GooglePlaces (10.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - place_picker_plus (0.0.1):
+    - Flutter
+    - GooglePlaces (~> 10.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - place_picker_plus (from `.symlinks/plugins/place_picker_plus/ios`)
+
+SPEC REPOS:
+  trunk:
+    - GooglePlaces
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  place_picker_plus:
+    :path: ".symlinks/plugins/place_picker_plus/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  GooglePlaces: 4d7be023d731b7e878e4cd9ba372a695170aab74
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+  place_picker_plus: 9aaadfc5f25aa1f6521adf5e110f7bd6f43484ea
+
+PODFILE CHECKSUM: fce966b1dd40ca5ae120e9f76290e04cc9e9e0ee
+
+COCOAPODS: 1.13.0

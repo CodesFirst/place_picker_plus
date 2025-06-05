@@ -1,3 +1,15 @@
+## ☕ Support Me
+
+If you find this plugin useful, please consider supporting me:
+
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/codesfirst)
+
+
+Note
+Original repository: https://pub.dev/packages/google_places_picker
+
+The problem with the original repository is that it will no longer be maintained by the creator, for this reason this repository was created in order to maintain updated code and make respective improvements as long as it is required.
+
 # place_picker_plus
 
 Google Places Autocomplete for Flutter
@@ -9,7 +21,7 @@ Google Places Autocomplete for Flutter
 ```dart
 import 'package:place_picker_plus/place_picker_plus.dart';
 
-PluginGooglePlacePicker.initialize(
+PluginGooglePlacePicker().initialize(
       androidApiKey: "YOUR_ANDROID_API_KEY",
       iosApiKey: "YOUR_IOS_API_KEY",
 );

@@ -1,6 +1,6 @@
 name: place_picker_plus
 description: "Flutter plugin for Google Places and Autocomplete."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/CodesFirst/place_picker_plus
 
 environment:
@@ -36,6 +36,8 @@ flutter:
     platforms:
       android:
         package: com.codesfirst.place_picker_plus
+        pluginClass: PlacePickerPlusPlugin
+      ios:
         pluginClass: PlacePickerPlusPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
